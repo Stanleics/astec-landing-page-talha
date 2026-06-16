@@ -268,430 +268,236 @@
 </section>
 
 <!-- ============================================================
-     SEÇÃO 3 — CATÁLOGO DE MODELOS
+     SEÇÃO 3 — TALHAS ELÉTRICAS
      ============================================================ -->
-<section id="catalogo" class="py-20 bg-astec-light" aria-labelledby="catalogo-heading">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="catalogo" aria-labelledby="catalogo-heading">
 
-    <!-- Header -->
-    <div class="text-center mb-12 reveal">
-      <span class="inline-block bg-astec-blue/10 text-astec-blue text-sm font-bold px-4 py-1.5 rounded-full mb-4">Catálogo de Produtos</span>
-      <h2 id="catalogo-heading" class="text-3xl sm:text-4xl font-extrabold text-astec-dark mb-4">Modelos de Talha Elétrica</h2>
-      <p class="text-astec-neutral text-lg max-w-2xl mx-auto">
-        Corrente ou cabo de aço, de 500 kg a 20 t. Encontre o modelo ideal para sua aplicação.
-      </p>
+  <!-- Cabeçalho -->
+  <div class="bg-white py-14 text-center reveal" style="border-bottom:1px solid #E2E8F0">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block bg-astec-blue/10 text-astec-blue text-sm font-bold px-4 py-1.5 rounded-full mb-4">Nossas Talhas</span>
+      <h2 id="catalogo-heading" class="text-3xl sm:text-4xl font-extrabold text-astec-dark mb-4">Linha de Talhas Elétricas Astec</h2>
+      <p class="text-astec-neutral text-lg max-w-2xl mx-auto">Corrente ou cabo de aço, de 500 kg a 20 t. Soluções para cada necessidade industrial.</p>
     </div>
-
-    <!-- Filters -->
-    <div class="bg-white rounded-2xl p-5 mb-8 shadow-sm reveal reveal-delay-1" role="group" aria-label="Filtros do catálogo">
-      <!-- Capacity -->
-      <div class="mb-4">
-        <p class="text-xs font-bold text-astec-neutral uppercase tracking-wider mb-2.5">Capacidade</p>
-        <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrar por capacidade">
-          <button class="filter-btn active" data-filter="capacity" data-value="all"   aria-pressed="true">Todos</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="500kg" aria-pressed="false">500 kg</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="1t"    aria-pressed="false">1 t</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="2t"    aria-pressed="false">2 t</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="3t"    aria-pressed="false">3 t</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="5t"    aria-pressed="false">5 t</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="10t"   aria-pressed="false">10 t</button>
-          <button class="filter-btn"        data-filter="capacity" data-value="10t+"  aria-pressed="false">Acima de 10 t</button>
-        </div>
-      </div>
-      <div class="grid sm:grid-cols-2 gap-4">
-        <!-- Type -->
-        <div>
-          <p class="text-xs font-bold text-astec-neutral uppercase tracking-wider mb-2.5">Tipo</p>
-          <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrar por tipo">
-            <button class="filter-btn active" data-filter="type" data-value="all"      aria-pressed="true">Todos</button>
-            <button class="filter-btn"        data-filter="type" data-value="corrente" aria-pressed="false">Corrente</button>
-            <button class="filter-btn"        data-filter="type" data-value="cabo"     aria-pressed="false">Cabo de Aço</button>
-          </div>
-        </div>
-        <!-- Trolley -->
-        <div>
-          <p class="text-xs font-bold text-astec-neutral uppercase tracking-wider mb-2.5">Trole</p>
-          <div class="flex flex-wrap gap-2" role="group" aria-label="Filtrar por trole">
-            <button class="filter-btn active" data-filter="trolley" data-value="all"      aria-pressed="true">Todos</button>
-            <button class="filter-btn"        data-filter="trolley" data-value="manual"   aria-pressed="false">Manual</button>
-            <button class="filter-btn"        data-filter="trolley" data-value="eletrico" aria-pressed="false">Elétrico</button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Counter -->
-      <p id="filter-count" class="text-sm text-astec-neutral mt-4 font-medium" aria-live="polite" aria-atomic="true">9 modelos encontrados</p>
-    </div>
-
-    <!-- Product Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="catalog-grid" role="list" aria-label="Produtos">
-
-      <!-- Card 1: TC-500 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="500kg" data-type="corrente" data-trolley="manual" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:bolt-bold-duotone" width="40" style="color:#004EA2" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue font-bold text-sm mt-1">TC-500</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-blue-50 text-astec-blue text-xs font-semibold px-2.5 py-1 rounded-full">Corrente</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Corrente 500 kg</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Compacta e confiável para manutenção leve, oficinas e movimentação em espaços reduzidos. Alta durabilidade com baixo custo operacional.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 3 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Manual</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue text-white text-xs font-bold px-3 py-1 rounded-full">500 kg</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Corrente%20500%20kg."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Corrente 500 kg via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 2: TC-1000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="1t" data-type="corrente" data-trolley="manual" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:bolt-bold-duotone" width="40" style="color:#004EA2" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue font-bold text-sm mt-1">TC-1000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-blue-50 text-astec-blue text-xs font-semibold px-2.5 py-1 rounded-full">Corrente</span>
-        </div>
-        <div class="absolute top-3 right-3">
-          <span class="text-xs font-bold px-2.5 py-1 rounded-full shadow-sm" style="background:#F5B800;color:#001228">Mais Vendida</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Corrente 1.000 kg</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">O modelo mais vendido para a indústria. Ideal para linhas de produção de médio porte, com ampla disponibilidade de peças e fácil manutenção.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 3 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Manual</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue text-white text-xs font-bold px-3 py-1 rounded-full">1 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Corrente%201.000%20kg."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Corrente 1.000 kg via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 3: TC-2000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="2t" data-type="corrente" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:bolt-bold-duotone" width="40" style="color:#004EA2" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue font-bold text-sm mt-1">TC-2000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-blue-50 text-astec-blue text-xs font-semibold px-2.5 py-1 rounded-full">Corrente</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Corrente 2.000 kg</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Com trole elétrico para deslocamento horizontal facilitado. Dupla velocidade de elevação e solução completa para linhas de montagem industrial.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 6 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8/2 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue text-white text-xs font-bold px-3 py-1 rounded-full">2 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Corrente%202.000%20kg%20com%20trole%20el%C3%A9trico."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Corrente 2.000 kg via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 4: TC-3000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="3t" data-type="corrente" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:bolt-bold-duotone" width="40" style="color:#004EA2" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue font-bold text-sm mt-1">TC-3000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-blue-50 text-astec-blue text-xs font-semibold px-2.5 py-1 rounded-full">Corrente</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Corrente 3.000 kg</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Robusto para produção de médio porte. Freio eletromagnético de segurança, limite de curso automático e proteção IP54.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 6 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8/2 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue text-white text-xs font-bold px-3 py-1 rounded-full">3 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Corrente%203.000%20kg."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Corrente 3.000 kg via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 5: TC-3000-BA DESTAQUE -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl ring-2 ring-astec-accent/30"
-               data-capacity="3t" data-type="corrente" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center" style="background: linear-gradient(145deg,#FFF7ED,#FFEDD5,#FFF7ED);">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:stars-bold-duotone" width="40" style="color:#F97316" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-accent font-bold text-sm mt-1">TC-3000-BA</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-blue-50 text-astec-blue text-xs font-semibold px-2.5 py-1 rounded-full">Corrente</span>
-        </div>
-        <div class="absolute top-3 right-3">
-          <span class="bg-astec-accent text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-sm">EXCLUSIVO ASTEC</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha Baixa Altura 3 t (770 mm)</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Para galpões com espaço vertical reduzido. Com apenas 770 mm de distância mínima ao obstáculo (DMO), maximiza a altura de elevação útil onde outros equipamentos não alcançam.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5 text-astec-accent font-bold"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>DMO: 770 mm</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8/2 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-accent text-white text-xs font-bold px-3 py-1 rounded-full">3 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20Baixa%20Altura%203t%20(770mm)%20%E2%80%94%20produto%20exclusivo%20Astec."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha Baixa Altura 3t via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-accent hover:bg-orange-600 text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 6: TCA-5000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="5t" data-type="cabo" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:transmission-bold-duotone" width="40" style="color:#003872" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue-dark font-bold text-sm mt-1">TCA-5000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-slate-100 text-astec-blue-dark text-xs font-semibold px-2.5 py-1 rounded-full">Cabo de Aço</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Cabo de Aço 5 t</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Para aplicações pesadas com grande altura de elevação. Cabo de aço galvanizado, fim de curso eletromecânico duplo e freio automático de segurança.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>220/380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 12 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>10/2,5 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue-dark text-white text-xs font-bold px-3 py-1 rounded-full">5 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Cabo%20de%20A%C3%A7o%205t."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Cabo de Aço 5t via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 7: TCA-10000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="10t" data-type="cabo" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:transmission-bold-duotone" width="40" style="color:#003872" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue-dark font-bold text-sm mt-1">TCA-10000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-slate-100 text-astec-blue-dark text-xs font-semibold px-2.5 py-1 rounded-full">Cabo de Aço</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Cabo de Aço 10 t</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Solução robusta para movimentação pesada com elevação acima de 15 m. Ideal para siderurgia, papel e celulose. Motor com inversor de frequência opcional.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 15 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>8/2 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue-dark text-white text-xs font-bold px-3 py-1 rounded-full">10 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20cotar%20a%20Talha%20de%20Cabo%20de%20A%C3%A7o%2010t."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar cotação da Talha de Cabo de Aço 10t via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Cotação
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 8: TCA-12500 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="10t+" data-type="cabo" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:transmission-bold-duotone" width="40" style="color:#003872" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue-dark font-bold text-sm mt-1">TCA-12500</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-slate-100 text-astec-blue-dark text-xs font-semibold px-2.5 py-1 rounded-full">Cabo de Aço</span>
-        </div>
-        <div class="absolute top-3 right-3">
-          <span class="bg-astec-neutral text-white text-xs font-bold px-2.5 py-1 rounded-full">Sob Projeto</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Cabo de Aço 12,5 t</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Solução sob medida para capacidades elevadas. Dimensionamento personalizado pelo corpo de engenharia Astec, com ART, laudo e instalação inclusa.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 18 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>6/1,5 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue-dark text-white text-xs font-bold px-3 py-1 rounded-full">12,5 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20proposta%20para%20Talha%20de%20Cabo%20de%20A%C3%A7o%2012%2C5t."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar proposta para Talha de Cabo de Aço 12,5t via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Proposta
-            </a>
-          </div>
-        </div>
-      </article>
-
-      <!-- Card 9: TCA-20000 -->
-      <article class="product-card bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl"
-               data-capacity="10t+" data-type="cabo" data-trolley="eletrico" role="listitem">
-        <div class="product-img-wrap flex items-center justify-center">
-          <div class="text-center py-8 relative z-10">
-            <div class="w-20 h-20 mx-auto mb-3 bg-white rounded-2xl shadow-sm flex items-center justify-center">
-              <iconify-icon icon="solar:transmission-bold-duotone" width="40" style="color:#003872" aria-hidden="true"></iconify-icon>
-            </div>
-            <p class="text-astec-neutral text-xs font-condensed">Foto em breve</p>
-            <p class="text-astec-blue-dark font-bold text-sm mt-1">TCA-20000</p>
-          </div>
-        </div>
-        <div class="absolute top-3 left-3">
-          <span class="bg-slate-100 text-astec-blue-dark text-xs font-semibold px-2.5 py-1 rounded-full">Cabo de Aço</span>
-        </div>
-        <div class="absolute top-3 right-3">
-          <span class="bg-astec-neutral text-white text-xs font-bold px-2.5 py-1 rounded-full">Sob Projeto</span>
-        </div>
-        <div class="p-5 flex flex-col flex-1">
-          <h3 class="font-bold text-astec-dark text-base leading-snug mb-2">Talha de Cabo de Aço 20 t</h3>
-          <p class="text-astec-neutral text-sm mb-4 leading-relaxed flex-1">Para projetos de grande porte: siderurgia, mineração e indústria pesada. Compatível com pontes rolantes e sistemas de automação industrial.</p>
-          <div class="grid grid-cols-2 gap-y-2 gap-x-3 mb-5 text-xs text-astec-neutral font-condensed">
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:bolt-linear" width="13" aria-hidden="true"></iconify-icon>380V</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:arrow-up-linear" width="13" aria-hidden="true"></iconify-icon>Alt. 24 m</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:settings-linear" width="13" aria-hidden="true"></iconify-icon>Trole Elétrico</span>
-            <span class="flex items-center gap-1.5"><iconify-icon icon="solar:refresh-circle-linear" width="13" aria-hidden="true"></iconify-icon>4/1 m/min</span>
-          </div>
-          <div class="flex items-center justify-between">
-            <span class="bg-astec-blue-dark text-white text-xs font-bold px-3 py-1 rounded-full">20 t</span>
-            <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20proposta%20para%20Talha%20de%20Cabo%20de%20A%C3%A7o%2020t."
-               target="_blank" rel="noopener noreferrer"
-               aria-label="Solicitar proposta para Talha de Cabo de Aço 20t via WhatsApp"
-               class="inline-flex items-center gap-2 bg-astec-blue hover:bg-astec-blue-dark text-white text-xs font-bold px-4 py-2 rounded-xl transition-colors shadow-sm">
-              <iconify-icon icon="solar:chat-round-money-linear" width="14" aria-hidden="true"></iconify-icon>
-              Solicitar Proposta
-            </a>
-          </div>
-        </div>
-      </article>
-
-    </div><!-- /grid -->
-
-    <!-- Empty state -->
-    <div id="catalog-empty" class="hidden flex-col items-center py-16 text-center" style="display:none">
-      <iconify-icon icon="solar:filter-bold-duotone" width="48" style="color:#CBD5E1" aria-hidden="true"></iconify-icon>
-      <p class="mt-4 text-astec-neutral font-semibold">Nenhum modelo encontrado para esses filtros.</p>
-      <button id="reset-filters-btn" class="mt-3 text-astec-blue font-semibold hover:underline text-sm">Limpar filtros</button>
-    </div>
-
-    <!-- Bottom CTA -->
-    <div class="mt-12 text-center reveal">
-      <p class="text-astec-neutral mb-4">Não encontrou o que precisa? Desenvolvemos soluções sob medida.</p>
-      <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Preciso%20de%20uma%20talha%20el%C3%A9trica%20com%20especifica%C3%A7%C3%B5es%20especiais.%20Podem%20me%20ajudar%3F"
-         target="_blank" rel="noopener noreferrer"
-         class="btn-primary">
-        <iconify-icon icon="solar:chat-round-bold" width="18" aria-hidden="true"></iconify-icon>
-        Consultar Engenheiro Astec
-      </a>
-    </div>
-
   </div>
+
+
+  <!-- ===== PRODUTO 1 — bg claro, foto esquerda, texto direita ===== -->
+  <div class="grid lg:grid-cols-2 items-center" style="background:#F8FAFC">
+
+    <!-- Foto -->
+    <div class="flex items-center justify-center py-16 px-10 lg:py-24 lg:px-20 min-h-[440px] lg:min-h-[560px]" style="background:linear-gradient(145deg,#F0F4FF 0%,#E8EFF8 100%)">
+      <img src="fotos-talhas/Gemini_Generated_Image_j4pu7tj4pu7tj4pu.png"
+           alt="Talha de Corrente com Gancho de Suspensão — Astec"
+           class="max-h-[380px] w-auto object-contain"
+           style="filter:drop-shadow(0 20px 40px rgba(0,78,162,0.18))"
+           loading="lazy">
+    </div>
+
+    <!-- Texto -->
+    <div class="py-14 px-8 lg:py-20 lg:px-16 xl:px-20 reveal">
+      <span class="inline-block text-xs font-bold text-astec-blue uppercase tracking-widest mb-5">Talha de Corrente</span>
+      <h3 class="text-2xl sm:text-3xl font-extrabold text-astec-dark mb-7 leading-tight">
+        Talha de Corrente<br>com Gancho de Suspensão
+      </h3>
+      <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20consultar%20informa%C3%A7%C3%B5es%20sobre%20Talha%20de%20Corrente%20com%20Gancho."
+         target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2.5 bg-astec-blue hover:bg-astec-blue-dark text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors shadow-lg mb-9">
+        <iconify-icon icon="solar:chat-round-bold" width="17" aria-hidden="true"></iconify-icon>
+        Consultar Informações Técnicas
+        <iconify-icon icon="solar:arrow-right-bold" width="15" aria-hidden="true"></iconify-icon>
+      </a>
+      <ul class="space-y-3.5">
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Adequação NR-12 com laudo técnico e ART
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== PRODUTO 2 — bg escuro, foto direita, texto esquerda ===== -->
+  <div class="grid lg:grid-cols-2 items-center" style="background:#0F172A">
+
+    <!-- Texto (esquerda no desktop, embaixo no mobile) -->
+    <div class="py-14 px-8 lg:py-20 lg:px-16 xl:px-20 order-2 lg:order-1 reveal">
+      <span class="inline-block text-xs font-bold uppercase tracking-widest mb-5" style="color:#F5B800">Talha de Corrente</span>
+      <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-7 leading-tight">
+        Talha de Corrente<br>com Trole Elétrico
+      </h3>
+      <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20consultar%20informa%C3%A7%C3%B5es%20sobre%20Talha%20de%20Corrente%20com%20Trole%20El%C3%A9trico."
+         target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2.5 bg-astec-blue hover:bg-astec-blue-dark text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors shadow-lg mb-9">
+        <iconify-icon icon="solar:chat-round-bold" width="17" aria-hidden="true"></iconify-icon>
+        Consultar Informações Técnicas
+        <iconify-icon icon="solar:arrow-right-bold" width="15" aria-hidden="true"></iconify-icon>
+      </a>
+      <ul class="space-y-3.5">
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Adequação NR-11 e NR-12 com laudo técnico e ART
+        </li>
+      </ul>
+    </div>
+
+    <!-- Foto (direita no desktop, em cima no mobile) -->
+    <div class="flex items-center justify-center py-16 px-10 lg:py-24 lg:px-20 min-h-[440px] lg:min-h-[560px] order-1 lg:order-2" style="background:rgba(255,255,255,0.04)">
+      <img src="fotos-talhas/Gemini_Generated_Image_gwdlkdgwdlkdgwdl.png"
+           alt="Talha de Corrente com Trole Elétrico — Astec"
+           class="max-h-[380px] w-auto object-contain"
+           style="filter:drop-shadow(0 20px 40px rgba(245,184,0,0.15))"
+           loading="lazy">
+    </div>
+  </div>
+
+  <!-- ===== PRODUTO 3 — bg claro, foto esquerda, texto direita ===== -->
+  <div class="grid lg:grid-cols-2 items-center" style="background:#F8FAFC">
+
+    <!-- Foto -->
+    <div class="flex items-center justify-center py-16 px-10 lg:py-24 lg:px-20 min-h-[440px] lg:min-h-[560px]" style="background:linear-gradient(145deg,#F0F4FF 0%,#E8EFF8 100%)">
+      <img src="fotos-talhas/Gemini_Generated_Image_pyejwvpyejwvpyej.png"
+           alt="Talha de Cabo de Aço com Trole Elétrico — Astec"
+           class="max-h-[340px] w-auto object-contain"
+           style="filter:drop-shadow(0 20px 40px rgba(0,78,162,0.18))"
+           loading="lazy">
+    </div>
+
+    <!-- Texto -->
+    <div class="py-14 px-8 lg:py-20 lg:px-16 xl:px-20 reveal">
+      <span class="inline-block text-xs font-bold text-astec-blue uppercase tracking-widest mb-5">Talha de Cabo de Aço</span>
+      <h3 class="text-2xl sm:text-3xl font-extrabold text-astec-dark mb-7 leading-tight">
+        Talha de Cabo de Aço<br>com Trole Elétrico
+      </h3>
+      <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20consultar%20informa%C3%A7%C3%B5es%20sobre%20Talha%20de%20Cabo%20de%20A%C3%A7o%20com%20Trole."
+         target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2.5 bg-astec-blue hover:bg-astec-blue-dark text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors shadow-lg mb-9">
+        <iconify-icon icon="solar:chat-round-bold" width="17" aria-hidden="true"></iconify-icon>
+        Consultar Informações Técnicas
+        <iconify-icon icon="solar:arrow-right-bold" width="15" aria-hidden="true"></iconify-icon>
+      </a>
+      <ul class="space-y-3.5">
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-astec-dark text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#004EA2;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Adequação NR-11 e NR-12 com laudo técnico e ART
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ===== PRODUTO 4 — bg escuro, foto direita, texto esquerda ===== -->
+  <div class="grid lg:grid-cols-2 items-center" style="background:#0F172A">
+
+    <!-- Texto (esquerda no desktop, embaixo no mobile) -->
+    <div class="py-14 px-8 lg:py-20 lg:px-16 xl:px-20 order-2 lg:order-1 reveal">
+      <span class="inline-block text-xs font-bold uppercase tracking-widest mb-5" style="color:#F5B800">Talha de Cabo de Aço</span>
+      <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-7 leading-tight">
+        Talha de Cabo de Aço<br>Alta Capacidade
+      </h3>
+      <a href="https://api.whatsapp.com/send?phone=555130513302&text=Ol%C3%A1!%20Gostaria%20de%20consultar%20informa%C3%A7%C3%B5es%20sobre%20Talha%20de%20Cabo%20de%20A%C3%A7o%20Alta%20Capacidade."
+         target="_blank" rel="noopener noreferrer"
+         class="inline-flex items-center gap-2.5 bg-astec-blue hover:bg-astec-blue-dark text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors shadow-lg mb-9">
+        <iconify-icon icon="solar:chat-round-bold" width="17" aria-hidden="true"></iconify-icon>
+        Consultar Informações Técnicas
+        <iconify-icon icon="solar:arrow-right-bold" width="15" aria-hidden="true"></iconify-icon>
+      </a>
+      <ul class="space-y-3.5">
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Texto a ser informado pelo cliente
+        </li>
+        <li class="flex items-start gap-3 text-slate-300 text-sm leading-relaxed">
+          <iconify-icon icon="solar:check-circle-bold" width="20" style="color:#F5B800;flex-shrink:0;margin-top:1px" aria-hidden="true"></iconify-icon>
+          Adequação NR-11 e NR-12 com laudo técnico e ART
+        </li>
+      </ul>
+    </div>
+
+    <!-- Foto (direita no desktop, em cima no mobile) -->
+    <div class="flex items-center justify-center py-16 px-10 lg:py-24 lg:px-20 min-h-[440px] lg:min-h-[560px] order-1 lg:order-2" style="background:rgba(255,255,255,0.04)">
+      <img src="fotos-talhas/Gemini_Generated_Image_zcnwv1zcnwv1zcnw.png"
+           alt="Talha de Cabo de Aço Alta Capacidade — Astec"
+           class="max-h-[260px] w-auto object-contain"
+           style="filter:drop-shadow(0 20px 40px rgba(245,184,0,0.12))"
+           loading="lazy">
+    </div>
+  </div>
+
 </section>
 
 <!-- ============================================================
